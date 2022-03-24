@@ -23,5 +23,15 @@ public class TestaMetado {
         }
         System.out.println(contaDaMarcela.saldo);
         System.out.println(contaDoJoao);
+
+        contaDoJoao.titular = "João Vitor";
+        System.out.println(contaDoJoao.titular);
+
+
     }
+
+
+
+
+
 }
